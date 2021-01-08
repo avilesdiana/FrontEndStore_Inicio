@@ -44,17 +44,19 @@ img {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
-    text-transform: uppercase;
+    text-transform: upp;
 }
 
 h1, h2, h3 {
     text-align: center;
     color: var(--yellowFeathers);
     font-family: var(--fuentePrincipal) ;
+    text-transform: uppercase;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 h2 {
@@ -83,10 +85,11 @@ h3 {
 
 .footer__texto {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
-    color: var(--yellowFeathers);
+    color: var(--branch);
     font-family: var(--fuentePrincipal);
+    font-size: 1.5rem;
 }
 
 
@@ -96,7 +99,7 @@ h3 {
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    /*gap: 2rem; /*Separación entre elementos forma nueva*/
 }
 
 .navegacion__enlace{
@@ -105,7 +108,14 @@ h3 {
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 500;
+    margin-right: 2rem;
+    font-size: 2rem;
 
+}
+
+/*Selecciona el último enlace*/
+.navegacion__enlace:last-of-type {
+    margin-right: 0;
 }
 
 .navegacion__enlace--activo,
