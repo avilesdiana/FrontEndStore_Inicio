@@ -44,6 +44,7 @@ img {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 h1, h2, h3 {
@@ -73,6 +74,21 @@ h3 {
 .header__logo {
     margin: 3rem 0;
 }
+/* FOOTER */
+.footer {
+    background-color: var(--berryFuerte);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--yellowFeathers);
+    font-family: var(--fuentePrincipal);
+}
+
 
 /* NAVEGACION */
 .navegacion{
