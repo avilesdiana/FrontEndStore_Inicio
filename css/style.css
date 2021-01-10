@@ -40,7 +40,7 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .contenedor {
@@ -218,7 +218,7 @@ h3 {
 
 .nosotros__imagen {
     grid-row: 1 / 2;
-    width: 100%;
+    
 }
 
 @media (min-width: 768px) {
@@ -253,8 +253,16 @@ h3 {
     margin: 0;
 }
 
-/* Formulario */
+/* Pagina del producto */
 .formulario {
     font-family: var(--fuentePrincipal);
 
+}
+
+@media (min-width: 768px) {
+    .camisa {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
