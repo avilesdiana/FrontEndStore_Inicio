@@ -240,7 +240,7 @@ h3 {
 
 @media (min-width: 768px) {
     .bloques {
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -251,4 +251,10 @@ h3 {
 .bloque__titulo {
     color: var(--branch);
     margin: 0;
+}
+
+/* Formulario */
+.formulario {
+    font-family: var(--fuentePrincipal);
+
 }
